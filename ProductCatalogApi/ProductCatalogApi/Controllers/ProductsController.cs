@@ -40,6 +40,10 @@ namespace ProductCatalogApi.Controllers
 
                 return Ok(logic.GetProductByID(id));
             }
+            catch (NullReferenceException ex)
+            {
+                return NotFound();
+            }
             catch (Exception ex)
             {
                 return BadRequest(ex.Message);
@@ -64,7 +68,16 @@ namespace ProductCatalogApi.Controllers
         {
             try
             {
-                return Ok(logic.GetProductByCategoryID(id));
+                IEnumerable<ProductModel> productModels = logic.GetProductByCategoryID(id);
+                if (productModels.Count() != 0)
+                {
+                    return Ok(productModels);
+
+                }
+                else
+                {
+                    return NotFound();
+                }
             }
             catch (Exception ex)
             {

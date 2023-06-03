@@ -230,5 +230,57 @@ public class CategoryControllerTesting
         Assert.Equal(10, returnCategory.Count());
     }
 
+    [Fact]
+    public void AddSpecificationsTest()
+    {
+
+        //Arrange
+
+        var FakeProduct = A.Dummy<SpecificationModel>();
+
+        var DataStore = A.Fake<ILogic>();
+        A.CallTo(() => DataStore.AddSpecification(FakeProduct)).Returns(FakeProduct);
+        var controller = new SpecificationController(DataStore);
+
+
+        //Act
+
+        IActionResult actionResult1 = controller.AddSpecification(FakeProduct);
+
+
+
+
+        //Assert
+        var result = actionResult1 as Microsoft.AspNetCore.Mvc.OkObjectResult;
+        var returnCategory = result.Value as SpecificationModel;
+        Assert.Equal(FakeProduct, returnCategory);
+    }
+
+
+    [Fact]
+    public void AddProductTest()
+    {
+
+        //Arrange
+
+        var FakeProduct = A.Dummy<ProductModel>();
+
+        var DataStore = A.Fake<ILogic>();
+        A.CallTo(() => DataStore.AddProduct(FakeProduct)).Returns(FakeProduct);
+        var controller = new ProductsController(DataStore);
+
+
+        //Act
+
+        IActionResult actionResult1 = controller.AddProduct(FakeProduct);
+
+
+
+
+        //Assert
+        var result = actionResult1 as Microsoft.AspNetCore.Mvc.OkObjectResult;
+        var returnCategory = result.Value as ProductModel;
+        Assert.Equal(FakeProduct, returnCategory);
+    }
 
 }

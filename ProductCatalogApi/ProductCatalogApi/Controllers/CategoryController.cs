@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using BuisnessLogic;
 using Models;
+using Microsoft.Data.SqlClient;
 
 
 namespace ProductCatalogApi.Controllers
@@ -40,6 +41,11 @@ namespace ProductCatalogApi.Controllers
             {
                 return Ok(logic.AddCategory(categoryModel));
             }
+            //catch (SqlException ex)
+            //{
+            //    return 
+
+            //}
             catch (Exception ex)
             {
                 return BadRequest(ex.Message);
