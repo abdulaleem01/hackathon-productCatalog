@@ -1,0 +1,360 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/abdulaleem/Documents/hackathon-productCatalog/ProductCatalogApi/TestProject/TestProject.csproj": {}
+  },
+  "projects": {
+    "/Users/abdulaleem/Documents/hackathon-productCatalog/ProductCatalogApi/BuisnessLogic/BuisnessLogic.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/abdulaleem/Documents/hackathon-productCatalog/ProductCatalogApi/BuisnessLogic/BuisnessLogic.csproj",
+        "projectName": "BuisnessLogic",
+        "projectPath": "/Users/abdulaleem/Documents/hackathon-productCatalog/ProductCatalogApi/BuisnessLogic/BuisnessLogic.csproj",
+        "packagesPath": "/Users/abdulaleem/.nuget/packages/",
+        "outputPath": "/Users/abdulaleem/Documents/hackathon-productCatalog/ProductCatalogApi/BuisnessLogic/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/abdulaleem/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/abdulaleem/Documents/hackathon-productCatalog/ProductCatalogApi/DataLayer/DataLayer.csproj": {
+                "projectPath": "/Users/abdulaleem/Documents/hackathon-productCatalog/ProductCatalogApi/DataLayer/DataLayer.csproj"
+              },
+              "/Users/abdulaleem/Documents/hackathon-productCatalog/ProductCatalogApi/Models/Models.csproj": {
+                "projectPath": "/Users/abdulaleem/Documents/hackathon-productCatalog/ProductCatalogApi/Models/Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/abdulaleem/Documents/hackathon-productCatalog/ProductCatalogApi/DataLayer/DataLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/abdulaleem/Documents/hackathon-productCatalog/ProductCatalogApi/DataLayer/DataLayer.csproj",
+        "projectName": "DataLayer",
+        "projectPath": "/Users/abdulaleem/Documents/hackathon-productCatalog/ProductCatalogApi/DataLayer/DataLayer.csproj",
+        "packagesPath": "/Users/abdulaleem/.nuget/packages/",
+        "outputPath": "/Users/abdulaleem/Documents/hackathon-productCatalog/ProductCatalogApi/DataLayer/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/abdulaleem/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/abdulaleem/Documents/hackathon-productCatalog/ProductCatalogApi/Models/Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/abdulaleem/Documents/hackathon-productCatalog/ProductCatalogApi/Models/Models.csproj",
+        "projectName": "Models",
+        "projectPath": "/Users/abdulaleem/Documents/hackathon-productCatalog/ProductCatalogApi/Models/Models.csproj",
+        "packagesPath": "/Users/abdulaleem/.nuget/packages/",
+        "outputPath": "/Users/abdulaleem/Documents/hackathon-productCatalog/ProductCatalogApi/Models/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/abdulaleem/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/abdulaleem/Documents/hackathon-productCatalog/ProductCatalogApi/ProductCatalogApi/ProductCatalogApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/abdulaleem/Documents/hackathon-productCatalog/ProductCatalogApi/ProductCatalogApi/ProductCatalogApi.csproj",
+        "projectName": "ProductCatalogApi",
+        "projectPath": "/Users/abdulaleem/Documents/hackathon-productCatalog/ProductCatalogApi/ProductCatalogApi/ProductCatalogApi.csproj",
+        "packagesPath": "/Users/abdulaleem/.nuget/packages/",
+        "outputPath": "/Users/abdulaleem/Documents/hackathon-productCatalog/ProductCatalogApi/ProductCatalogApi/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/abdulaleem/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/abdulaleem/Documents/hackathon-productCatalog/ProductCatalogApi/BuisnessLogic/BuisnessLogic.csproj": {
+                "projectPath": "/Users/abdulaleem/Documents/hackathon-productCatalog/ProductCatalogApi/BuisnessLogic/BuisnessLogic.csproj"
+              },
+              "/Users/abdulaleem/Documents/hackathon-productCatalog/ProductCatalogApi/DataLayer/DataLayer.csproj": {
+                "projectPath": "/Users/abdulaleem/Documents/hackathon-productCatalog/ProductCatalogApi/DataLayer/DataLayer.csproj"
+              },
+              "/Users/abdulaleem/Documents/hackathon-productCatalog/ProductCatalogApi/Models/Models.csproj": {
+                "projectPath": "/Users/abdulaleem/Documents/hackathon-productCatalog/ProductCatalogApi/Models/Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/abdulaleem/Documents/hackathon-productCatalog/ProductCatalogApi/TestProject/TestProject.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/abdulaleem/Documents/hackathon-productCatalog/ProductCatalogApi/TestProject/TestProject.csproj",
+        "projectName": "TestProject",
+        "projectPath": "/Users/abdulaleem/Documents/hackathon-productCatalog/ProductCatalogApi/TestProject/TestProject.csproj",
+        "packagesPath": "/Users/abdulaleem/.nuget/packages/",
+        "outputPath": "/Users/abdulaleem/Documents/hackathon-productCatalog/ProductCatalogApi/TestProject/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/abdulaleem/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/abdulaleem/Documents/hackathon-productCatalog/ProductCatalogApi/BuisnessLogic/BuisnessLogic.csproj": {
+                "projectPath": "/Users/abdulaleem/Documents/hackathon-productCatalog/ProductCatalogApi/BuisnessLogic/BuisnessLogic.csproj"
+              },
+              "/Users/abdulaleem/Documents/hackathon-productCatalog/ProductCatalogApi/DataLayer/DataLayer.csproj": {
+                "projectPath": "/Users/abdulaleem/Documents/hackathon-productCatalog/ProductCatalogApi/DataLayer/DataLayer.csproj"
+              },
+              "/Users/abdulaleem/Documents/hackathon-productCatalog/ProductCatalogApi/Models/Models.csproj": {
+                "projectPath": "/Users/abdulaleem/Documents/hackathon-productCatalog/ProductCatalogApi/Models/Models.csproj"
+              },
+              "/Users/abdulaleem/Documents/hackathon-productCatalog/ProductCatalogApi/ProductCatalogApi/ProductCatalogApi.csproj": {
+                "projectPath": "/Users/abdulaleem/Documents/hackathon-productCatalog/ProductCatalogApi/ProductCatalogApi/ProductCatalogApi.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "FakeItEasy": {
+              "target": "Package",
+              "version": "[7.4.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.1.0, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
