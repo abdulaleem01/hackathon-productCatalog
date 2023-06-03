@@ -1,0 +1,17 @@
+/Users/abdulaleem/Documents/hackathon-productCatalog/ProductCatalogApi/BuisnessLogic/obj/Debug/net6.0/BuisnessLogic.csproj.AssemblyReference.cache
+/Users/abdulaleem/Documents/hackathon-productCatalog/ProductCatalogApi/BuisnessLogic/obj/Debug/net6.0/BuisnessLogic.GeneratedMSBuildEditorConfig.editorconfig
+/Users/abdulaleem/Documents/hackathon-productCatalog/ProductCatalogApi/BuisnessLogic/obj/Debug/net6.0/BuisnessLogic.AssemblyInfoInputs.cache
+/Users/abdulaleem/Documents/hackathon-productCatalog/ProductCatalogApi/BuisnessLogic/obj/Debug/net6.0/BuisnessLogic.AssemblyInfo.cs
+/Users/abdulaleem/Documents/hackathon-productCatalog/ProductCatalogApi/BuisnessLogic/obj/Debug/net6.0/BuisnessLogic.csproj.CoreCompileInputs.cache
+/Users/abdulaleem/Documents/hackathon-productCatalog/ProductCatalogApi/BuisnessLogic/bin/Debug/net6.0/BuisnessLogic.deps.json
+/Users/abdulaleem/Documents/hackathon-productCatalog/ProductCatalogApi/BuisnessLogic/bin/Debug/net6.0/BuisnessLogic.dll
+/Users/abdulaleem/Documents/hackathon-productCatalog/ProductCatalogApi/BuisnessLogic/bin/Debug/net6.0/BuisnessLogic.pdb
+/Users/abdulaleem/Documents/hackathon-productCatalog/ProductCatalogApi/BuisnessLogic/bin/Debug/net6.0/DataLayer.dll
+/Users/abdulaleem/Documents/hackathon-productCatalog/ProductCatalogApi/BuisnessLogic/bin/Debug/net6.0/Models.dll
+/Users/abdulaleem/Documents/hackathon-productCatalog/ProductCatalogApi/BuisnessLogic/bin/Debug/net6.0/Models.pdb
+/Users/abdulaleem/Documents/hackathon-productCatalog/ProductCatalogApi/BuisnessLogic/bin/Debug/net6.0/DataLayer.pdb
+/Users/abdulaleem/Documents/hackathon-productCatalog/ProductCatalogApi/BuisnessLogic/obj/Debug/net6.0/BuisnessLogic.csproj.CopyComplete
+/Users/abdulaleem/Documents/hackathon-productCatalog/ProductCatalogApi/BuisnessLogic/obj/Debug/net6.0/BuisnessLogic.dll
+/Users/abdulaleem/Documents/hackathon-productCatalog/ProductCatalogApi/BuisnessLogic/obj/Debug/net6.0/refint/BuisnessLogic.dll
+/Users/abdulaleem/Documents/hackathon-productCatalog/ProductCatalogApi/BuisnessLogic/obj/Debug/net6.0/BuisnessLogic.pdb
+/Users/abdulaleem/Documents/hackathon-productCatalog/ProductCatalogApi/BuisnessLogic/obj/Debug/net6.0/ref/BuisnessLogic.dll

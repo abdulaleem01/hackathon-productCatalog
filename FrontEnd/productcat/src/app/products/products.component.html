@@ -1,0 +1,32 @@
+<!-- public string ProductName { get; set; } = null!;
+
+public string? Description { get; set; }
+
+public int Price { get; set; }
+
+public string Date { get; set; } = null!;
+
+public string Brand { get; set; } = null!;
+
+public int CategoryTypeId { get; set; } -->
+<div>
+    <div class="container text-center">
+        <div class="row">
+          <div *ngFor="let i of productList" class="col">
+
+            <div class="card cr" style="width: 18rem;">
+                <div class="card-body">
+                  <h5 class="card-title">{{i.productName}}</h5>
+                  <h6 class="card-subtitle mb-2 text-body-secondary">{{i.brand}}</h6>
+                  <h6 class="card-subtitle">{{i.price}}Rs</h6>
+
+                  <p class="card-text">{{i.description}}</p>
+                  <a (click)="NavToProduct(i.productId)" class="btn btn-primary" >View</a>
+                </div>
+              </div>
+
+          </div>
+         
+        </div>
+      </div>
+</div>

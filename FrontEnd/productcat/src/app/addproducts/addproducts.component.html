@@ -1,0 +1,53 @@
+<app-nav>
+
+</app-nav>
+
+<div class="head">
+    <div class="container bg1">
+
+        <div class="form1">
+            <h1>Add Products</h1>
+
+            <div class="input-group mb-3">
+                <span class="input-group-text" id="inputGroup-sizing-default">Product Name</span>
+                <input [(ngModel)]="productName" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+              </div>
+              <div class="input-group mb-3">
+                <span class="input-group-text" id="inputGroup-sizing-default">Description</span>
+                <textarea [(ngModel)]="description" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default"></textarea>
+              </div>
+              <div class="input-group mb-3">
+                <span class="input-group-text" id="inputGroup-sizing-default">Price</span>
+                <input [(ngModel)]="price" type="number" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+              </div>
+              <div class="input-group mb-3">
+                <span class="input-group-text" id="inputGroup-sizing-default">Brand</span>
+                <input [(ngModel)]="brand" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+              </div>
+
+              <div class="input-group mb-3">
+                <label class="input-group-text" for="inputGroupSelect01">Category</label>
+                <select [(ngModel)]="categoryTypeId" class="form-select" id="inputGroupSelect01">
+                  <option selected>Choose...</option>
+                  <option  *ngFor="let i of catogoryDetails" value="{{i.categoryId}}">{{i.categoryName}}</option>
+                  <!-- <option value="2">Two</option>
+                  <option value="3">Three</option> -->
+                </select>
+              </div>
+
+              <button (click)="addProduct()" type="button" class="btn btn-primary">Add</button>
+
+        </div>
+
+    </div>
+</div>
+
+
+
+
+<!-- "productName": "string",
+"description": "string",
+"price": 0,
+"date": "string",
+"brand": "string",
+"categoryTypeId": 0 -->
