@@ -1,0 +1,14 @@
+/Users/abdulaleem/Projects/ProductCatalogApi/DataLayer/bin/Debug/net6.0/DataLayer.deps.json
+/Users/abdulaleem/Projects/ProductCatalogApi/DataLayer/bin/Debug/net6.0/DataLayer.runtimeconfig.json
+/Users/abdulaleem/Projects/ProductCatalogApi/DataLayer/bin/Debug/net6.0/DataLayer.dll
+/Users/abdulaleem/Projects/ProductCatalogApi/DataLayer/bin/Debug/net6.0/DataLayer.pdb
+/Users/abdulaleem/Projects/ProductCatalogApi/DataLayer/obj/Debug/net6.0/DataLayer.csproj.AssemblyReference.cache
+/Users/abdulaleem/Projects/ProductCatalogApi/DataLayer/obj/Debug/net6.0/DataLayer.GeneratedMSBuildEditorConfig.editorconfig
+/Users/abdulaleem/Projects/ProductCatalogApi/DataLayer/obj/Debug/net6.0/DataLayer.AssemblyInfoInputs.cache
+/Users/abdulaleem/Projects/ProductCatalogApi/DataLayer/obj/Debug/net6.0/DataLayer.AssemblyInfo.cs
+/Users/abdulaleem/Projects/ProductCatalogApi/DataLayer/obj/Debug/net6.0/DataLayer.csproj.CoreCompileInputs.cache
+/Users/abdulaleem/Projects/ProductCatalogApi/DataLayer/obj/Debug/net6.0/DataLayer.dll
+/Users/abdulaleem/Projects/ProductCatalogApi/DataLayer/obj/Debug/net6.0/refint/DataLayer.dll
+/Users/abdulaleem/Projects/ProductCatalogApi/DataLayer/obj/Debug/net6.0/DataLayer.pdb
+/Users/abdulaleem/Projects/ProductCatalogApi/DataLayer/obj/Debug/net6.0/DataLayer.genruntimeconfig.cache
+/Users/abdulaleem/Projects/ProductCatalogApi/DataLayer/obj/Debug/net6.0/ref/DataLayer.dll
